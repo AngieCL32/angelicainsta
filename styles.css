@@ -1,0 +1,61 @@
+body {
+    background: black;
+
+}
+
+.post {
+    display: inline-block;
+    align-content: center;
+    background-color: white;
+    margin: 40px 500px;
+}
+
+.post-cabeza {
+    display: flex;
+}
+
+.post-cabeza-icon {
+    margin: 15px;
+    justify-content: left;
+}
+
+.post-cabeza-texto {
+    font-size: 15px;
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+div .post-cabeza-texto h1 {
+    font-size: 15px;
+    margin: 0;
+    margin-top: 12px;
+}
+
+div .post-cabeza-texto p {
+    font-size: 15px;
+    margin: 0;
+}
+
+.post-cabeza-puntos {
+    margin: 15px;
+    justify-content: right;
+}
+
+img{
+    width: 500px;;
+}
+
+
+
+.post-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    font-size: 12px;
+}
+
+.text-body {
+    margin: 15px;
+}
